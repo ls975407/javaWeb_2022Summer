@@ -1,0 +1,11 @@
+TestKAddressM01.java
+	readKAddressbyPath
+	inputLocalRandom
+TestKAddressM02.java
+	inputCloudFile
+	openCloudFolder
+TestKAddressM03.java
+	openLocalId
+	openCloudId
+	openLocalCh
+	openCloudCh

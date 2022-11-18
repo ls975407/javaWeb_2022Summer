@@ -1,0 +1,7 @@
+TestThreadImpId
+	iniIdFolders(KIdTS kidts)
+TestThreadImpSyn01
+	synKAddress(TokenS tokenS, String localPath)
+	synKAddress(TokenS tokenS, String localPath, KId kid)
+TestThreadImpPre
+	prepareImage(IndexP indexPStd, IterUnit iterUnit)

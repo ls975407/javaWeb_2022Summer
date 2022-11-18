@@ -1,0 +1,897 @@
+[
+	{
+		"Name": "PgSingle",
+		"FrameType": "single",
+		"HolderType": "Pg",
+		"LabelMs": [
+			[["__idName__", "_","__ch__", "_","__page__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevPage"],
+				"Range": [0.5,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.0,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.66,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0, 0.8, 0.25, 0.2],
+				"Args": ["ChSingle", "IdSingle"],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": ["SettingSingle01"],
+				"IsClickAction": true
+			},{
+				"Type": ["To"],
+				"Range": [0.33, 0.4, 0.16, 0.4],
+				"Args": ["PgDual"],
+				"IsClickAction": true
+			},{
+				"Type": ["MinusTo"],
+				"Range": [0.5, 0.4, 0.16, 0.4],
+				"Args": ["PgDual"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "To",
+				"Args": "PgUpDown"
+			},{
+				"Type": "MinusTo",
+				"Args": "PgUpDown"
+			},{
+				"Type": "MinusTo",
+				"Args": "PgLeftRight"
+			},{
+				"Type": "To",
+				"Args": "PgLeftRight"
+			}
+		]
+	}, 
+	{
+		"Name": "ChSingle",
+		"FrameType": "single",
+		"HolderType": "Ch",
+		"LabelMs": [
+			[["__idName__", "_", "__ch__", "__chName__"], 1, 0]
+		],
+		"CmdMs": [
+			{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevPage"],
+				"Range": [0.5,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.0,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.66,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0.33, 0.4, 0.33, 0.4],
+				"Args": ["PgSingle", "ChDual"],
+				"IsClickAction": false
+			},{
+				"Type": ["To"],
+				"Range": [0, 0.8, 0.25, 0.2],
+				"Args": ["IdSingle"],
+				"IsClickAction": true
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": ["SettingSingle01"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "NextPage",
+				"Args": ""
+			},{
+				"Type": "PrevPage",
+				"Args": ""
+			},{
+				"Type": "PrevMark",
+				"Args": ""
+			},{
+				"Type": "NextMark",
+				"Args": ""
+			}
+		]
+	},
+	{
+		"Name": "IdSingle",
+		"FrameType": "single",
+		"HolderType": "Id",
+		"LabelMs": [
+			[["__idName__"], 1, 0]
+		],
+		"CmdMs": [
+			{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevPage"],
+				"Range": [0.5,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.0,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.66,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0.33, 0.4, 0.33, 0.4],
+				"Args": ["ChSingle", "IdDual"],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": ["SettingSingle01"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "NextPage",
+				"Args": ""
+			},{
+				"Type": "PrevPage",
+				"Args": ""
+			},{
+				"Type": "PrevPage",
+				"Args": ""
+			},{
+				"Type": "NextPage",
+				"Args": ""
+			}
+		]
+	},
+	{
+		"Name": "SettingSingle01",
+		"FrameType": "single",
+		"HolderType": "Ini",
+		"FolderImage": "SettingSingle01",
+		"LabelMs": [
+			[["setting 01"], 1, 0]
+		],
+		"CmdMs": [
+			{
+				"Type": ["SetIni"],
+				"Range": [0.0,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetPathUser"],
+				"Range": [0.125,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetCloudStorage"],
+				"Range": [0.25,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetLocalStorage"],
+				"Range": [0.375,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCurrntFolder"],
+				"Range": [0.5,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Exit"],
+				"Range": [0.75,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["CreateId"],
+				"Range": [0.0,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["CreateIdS"],
+				"Range": [0.25,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudRandom"],
+				"Range": [0.5,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalRandom"],
+				"Range": [0.75,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["UpdateId"],
+				"Range": [0.0,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["UpdateIdS"],
+				"Range": [0.25,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud0"],
+				"Range": [0.5,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud1"],
+				"Range": [0.75,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoLast"],
+				"Range": [0.0,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoFirst"],
+				"Range": [0.25,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudHistory"],
+				"Range": [0.5,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalHistory"],
+				"Range": [0.75,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Show"],
+				"Range": [0.0, 0.8, 0.25, 0.2],
+				"Args": ["SettingSingle02"], "IsClickAction": true
+			},{
+				"Type": ["None"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": [""], "IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "Show",
+				"Args": "SettingSingle02"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle02"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle02"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle02"
+			}
+		]
+	},
+	{
+		"Name": "SettingSingle02",
+		"FrameType": "single",
+		"HolderType": "Ini",
+		"LabelMs": [
+			[["setting 02"], 1, 0]
+		],
+		"FolderImage": "SettingSingle02",
+		"CmdMs": [
+			{
+				"Type": ["TxtCloudFolder"],
+				"Range": [0.0,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtDefaultFolder"],
+				"Range": [0.25,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCurrntFolder"],
+				"Range": [0.5,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Exit"],
+				"Range": [0.75,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudSearchCh"],
+				"Range": [0.0,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalSearchCh"],
+				"Range": [0.25,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudRandom"],
+				"Range": [0.5,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalRandom"],
+				"Range": [0.75,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudSearchId"],
+				"Range": [0.0,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalSearchId"],
+				"Range": [0.25,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud0"],
+				"Range": [0.5,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud1"],
+				"Range": [0.75,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoLast"],
+				"Range": [0.0,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoFirst"],
+				"Range": [0.25,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudHistory"],
+				"Range": [0.5,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalHistory"],
+				"Range": [0.75,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Show"],
+				"Range": [0.0, 0.8, 0.25, 0.2],
+				"Args": ["SettingSingle01"], "IsClickAction": true
+			},{
+				"Type": ["None"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": [""], "IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "Show",
+				"Args": "SettingSingle01"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle01"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle01"
+			},{
+				"Type": "Show",
+				"Args": "SettingSingle01"
+			}
+		]
+	},
+	{
+		"Name": "PgLeftRight",
+		"FrameType": "leftright",
+		"HolderType": "Pg",
+		"LabelMs": [
+			[["__idName__", "<->","__ch__", "_","__page__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevPage"],
+				"Range": [0.5,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.0,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.66,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0, 0.8, 0.25, 0.2],
+				"Args": ["ChSingle", "IdSingle"],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": ["SettingSingle01"],
+				"IsClickAction": true
+			},{
+				"Type": ["To"],
+				"Range": [0.33, 0.4, 0.33,0.4],
+				"Args": ["PgDual"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "AddTo",
+				"Args": "PgSingle"
+			},{
+				"Type": "To",
+				"Args": "PgSingle"
+			},{
+				"Type": "To",
+				"Args": "PgSingle"
+			},{
+				"Type": "AddTo",
+				"Args": "PgSingle"
+			}
+		]
+	}, 
+	{
+		"Name": "PgUpDown",
+		"FrameType": "updown",
+		"HolderType": "Pg",
+		"LabelMs": [
+			[["__idName__", "^|^","__ch__", "_","__page__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevPage"],
+				"Range": [0.5,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.0,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.66,0.4,0.33,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0, 0.8, 0.25, 0.2],
+				"Args": ["ChSingle", "IdSingle"],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": ["SettingSingle01"],
+				"IsClickAction": true
+			},{
+				"Type": ["To"],
+				"Range": [0.33, 0.4, 0.33,0.4],
+				"Args": ["PgDual"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "AddTo",
+				"Args": "PgSingle"
+			},{
+				"Type": "To",
+				"Args": "PgSingle"
+			},{
+				"Type": "To",
+				"Args": "PgSingle"
+			},{
+				"Type": "AddTo",
+				"Args": "PgSingle"
+			}
+		]
+	}, 
+	{
+		"Name": "IdDual",
+		"FrameType": "dual",
+		"HolderType": "Id",
+		"LabelMs": [
+			[["__idName__", "_", "__ch__", "__chName__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["PrevPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.4,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.5,0.0,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0.5,0.26,0.5,0.26],
+				"Args": ["ChDual", "IdSingle"],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.5,0.53,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.25,0.2],
+				"Args": ["SettingDual01"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "PrevPage",
+				"Args": ""
+			},{
+				"Type": "NextPage",
+				"Args": ""
+			},{
+				"Type": "NextPage",
+				"Args": ""
+			},{
+				"Type": "PrevPage",
+				"Args": ""
+			}
+		]
+	},	
+	{
+		"Name": "ChDual",
+		"FrameType": "dual",
+		"HolderType": "Ch",
+		"LabelMs": [
+			[["__idName__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["PrevPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.4,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.5,0.0,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To", "To"],
+				"Range": [0.5,0.26,0.5,0.26],
+				"Args": ["PgDual", "ChSingle"],
+				"IsClickAction": false
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.5,0.53,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.25,0.2],
+				"Args": ["SettingDual01"],
+				"IsClickAction": true
+			},{
+				"Type": ["To"],
+				"Range": [0,0.8,0.25,0.2],
+				"Args": ["IdDual"],
+				"IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "PrevMark",
+				"Args": ""
+			},{
+				"Type": "NextMark",
+				"Args": ""
+			},{
+				"Type": "NextPage",
+				"Args": ""
+			},{
+				"Type": "PrevPage",
+				"Args": ""
+			}
+		]
+	},
+	{
+		"Name": "PgDual",
+		"FrameType": "dual",
+		"HolderType": "Pg",
+		"LabelMs": [
+			[["__idName__", "_","__ch__", "_","__page__"], 1, 0]
+		], 
+		"CmdMs": [
+			{
+				"Type": ["PrevPage"],
+				"Range": [0.0,0.0,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["NextPage"],
+				"Range": [0.0,0.4,0.5,0.4],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["PrevChapter"],
+				"Range": [0.5,0.0,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["To"],
+				"Range": [0.5,0.26,0.5,0.26],
+				"Args": ["PgSingle"],
+				"IsClickAction": true
+			},{
+				"Type": ["NextChapter"],
+				"Range": [0.5,0.53,0.5,0.26],
+				"Args": [""],
+				"IsClickAction": false
+			},{
+				"Type": ["Show"],
+				"Range": [0.75,0.8,0.25,0.2],
+				"Args": ["SettingDual01"],
+				"IsClickAction": true
+			},{
+				"Type": ["To", "To"],
+				"Range": [0,0.8,0.25,0.2],
+				"Args": ["ChDual", "IdDual"],
+				"IsClickAction": false
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "MinusTo",
+				"Args": "PgLeftRight"
+			},{
+				"Type": "To",
+				"Args": "PgLeftRight"
+			},{
+				"Type": "To",
+				"Args": "PgUpDown"
+			},{
+				"Type": "MinusTo",
+				"Args": "PgUpDown"
+			}
+		]
+	},
+	{
+		"Name": "SettingDual01",
+		"FrameType": "dual",
+		"HolderType": "Ini",
+		"FolderImage": "SettingDual01",
+		"LabelMs": [
+			[["setting 01"], 1, 0]
+		],
+		"CmdMs": [
+			{
+				"Type": ["SetIni"],
+				"Range": [0.0,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetPathUser"],
+				"Range": [0.125,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetCloudStorage"],
+				"Range": [0.25,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["SetLocalStorage"],
+				"Range": [0.375,0.0,0.125,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCurrntFolder"],
+				"Range": [0.5,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Exit"],
+				"Range": [0.75,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["CreateId"],
+				"Range": [0.0,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["CreateIdS"],
+				"Range": [0.25,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudRandom"],
+				"Range": [0.5,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalRandom"],
+				"Range": [0.75,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["UpdateId"],
+				"Range": [0.0,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["UpdateIdS"],
+				"Range": [0.25,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud0"],
+				"Range": [0.5,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud1"],
+				"Range": [0.75,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoLast"],
+				"Range": [0.0,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoFirst"],
+				"Range": [0.25,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudHistory"],
+				"Range": [0.5,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalHistory"],
+				"Range": [0.75,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Show"],
+				"Range": [0.0, 0.8, 0.25, 0.2],
+				"Args": ["SettingDual02"], "IsClickAction": true
+			},{
+				"Type": ["None"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": [""], "IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "Show",
+				"Args": "SettingDual02"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual02"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual02"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual02"
+			}
+		]
+	},
+	{
+		"Name": "SettingDual02",
+		"FrameType": "dual",
+		"HolderType": "Ini",
+		"LabelMs": [
+			[["setting 02"], 1, 0]
+		],
+		"FolderImage": "SettingDual02",
+		"CmdMs": [
+			{
+				"Type": ["TxtCloudFolder"],
+				"Range": [0.0,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtDefaultFolder"],
+				"Range": [0.25,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCurrntFolder"],
+				"Range": [0.5,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Exit"],
+				"Range": [0.75,0.0,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudSearchCh"],
+				"Range": [0.0,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalSearchCh"],
+				"Range": [0.25,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudRandom"],
+				"Range": [0.5,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalRandom"],
+				"Range": [0.75,0.2,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudSearchId"],
+				"Range": [0.0,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalSearchId"],
+				"Range": [0.25,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud0"],
+				"Range": [0.5,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloud1"],
+				"Range": [0.75,0.4,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoLast"],
+				"Range": [0.0,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["GoFirst"],
+				"Range": [0.25,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtCloudHistory"],
+				"Range": [0.5,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["TxtLocalHistory"],
+				"Range": [0.75,0.6,0.25,0.2],
+				"Args": [""], "IsClickAction": true
+			},{
+				"Type": ["Show"],
+				"Range": [0.0, 0.8, 0.25, 0.2],
+				"Args": ["SettingDual01"], "IsClickAction": true
+			},{
+				"Type": ["None"],
+				"Range": [0.75,0.8,0.75,0.2],
+				"Args": [""], "IsClickAction": true
+			}
+		],
+		"SlideCmds": [
+			{
+				"Type": "Show",
+				"Args": "SettingDual01"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual01"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual01"
+			},{
+				"Type": "Show",
+				"Args": "SettingDual01"
+			}
+		]
+	}
+]

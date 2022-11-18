@@ -1,0 +1,123 @@
+import org.json.JSONObject;
+import org.json.JSONException;
+import org.json.JSONArray;
+
+import java.util.ArrayMap;
+import java.util.Map;
+
+/*
+javac -encoding utf8  ./SettingAd.java
+*/
+
+public class SettingAd implements Setting 
+ ,com.cloud.manga.henryTing.data.Setting
+ ,com.cloud.manga.henryTing.consts.Setting
+ ,com.cloud.manga.henryTing.infor.Setting
+ ,com.cloud.manga.henryTing.holder.Setting
+ ,com.cloud.manga.henryTing.thread.Setting
+{
+	// data.PathGet
+	public String getPathLPicture() { return _pathLPicture; }
+	public String getPathCPicture() { return _pathCPicture; }
+	public String getPathLRecord() { return _pathLRecord; }
+	public String getPathCRecord() { return _pathCRecord; }
+	// data.InforCh
+	public int mark2Order(String key) { return _Tmark2Order.find(key); }
+	public String markToName(String key) { return _TmarkToName.find(key); }
+	// data.DateT
+	public long getDiffMaxDay() { return _diffMaxDay; }
+	// consts.IdTokenS
+	public Long getNode() { return _node; }
+	public String getPathTokenS() { return _pathTokenS; }
+	// consts.CloudM
+	public String getCloudToken() { return _cloudToken; }
+	// consts.ThreadWork
+	public String[] getLegalImageExtension() { return _legalImageExtension; }
+	// holder.holderId
+	public int getIdIndexPKPgS() { return _idIndexPKPgS; }
+	// holder.holderCh
+	public int getKIdTHolderCh() { return _kIdTHolderCh; }
+	public int getChIndexPKPgS() { return _chIndexPKPgS; }
+	// holder.holderPg
+	public int getKIdTHolderPg() { return _kIdTHolderPg; }
+	public int getPgIndexPKPgS() { return _pgIndexPKPgS; }
+	public int getPgIndexChKPgSF() { return _pgIndexChKPgSF; }
+	public int getPgIndexChInteger() { return _pgIndexChInteger; }
+	// holder.holderBase
+	public int getPressAmount() { return _pressAmount; }
+	// infor.FrameM
+	public String getDFKeyName() { return _dFKeyName; }
+	public String[] getLegalImageExtension() { return _legalImageExtension; }
+	public String getPathLFImage() { return _pathLFImage; }
+	// infor.LabelBase
+	public String getFontTypes(String key) { return _TgetFontTypes.find(key); }
+	public String getErrorFontType() { return _errorFontType; }
+	public int getErrorFontSize() { return _errorFontSize; }
+	// infor.LabelM
+	public int getErrorLabelIndex() { return _errorLabelIndex; }
+	// infor.FrameInfor
+	public double getFontScaleValue() { return _fontScaleValue; }
+	public double getGeoScaleValue() { return _geoScaleValue; }
+	public int getLabelMarge() { return _labelMarge; }
+	public int getScreenX() { return _screenX; }
+	public int getScreenY() { return _screenY; }
+	// thread.ThreadImp
+	public int getRangeNextPg() { return _rangeNextPg; }
+	public int getRangePrevPg() { return _rangePrevPg; }
+	public int getRangeNextCh() { return _rangeNextCh; }
+	public int getRangePrevCh() { return _rangePrevCh; }
+	public int getNumThread() { return _numThread; }
+	// thread.TouchDelayer
+	public long getCmdTimeMax() { return _cmdTimeMax; }
+	// thread.TouchUnit
+	public long getCmdTimeMin() { return _cmdTimeMin; }
+	// main.KAddreddM
+	public int getRandomIdNum() { return _randomIdNum; }
+	public String getTxtHistory() { return _txtHistory; }
+	public Long getNodeCPicture() { return _nodeCPicture; }
+	public Long getNodeCJson() { return _nodeCJson; }
+	public String getPathLPicture() { return _pathLPicture; }
+	public String getPathSynJson() { return _pathSynJson; }
+	public String[] getLegalJsonExtension() { return _legalJsonExtension; }
+	public String[] getFileManagerList() { return _fileManagerList; }
+	public String getPathSynCId() { return _pathSynCId; }
+	public String getPathSynLId() { return _pathSynLId; }
+	public String getLocalDefault() { return _localDefault; }
+	// main.Manga
+	public FrameM findFrameObj(String key) { return _TfindFrameObj.find(key); }
+	public FrameM getDefaultFrame() { return findFrameObj(_defaultFrame); }
+	public FrameM getDefaultIdFrame() { return findFrameObj(_defaultIdFrame); }
+	public FrameM getDefaultChFrame() { return findFrameObj(_defaultChFrame); }
+	public FrameM getDefaultPgFrame() { return findFrameObj(_defaultPgFrame); }
+	public void setPathUser(String localPath){ _dirUser = localPath; }
+	public void setCloudStorage(String localPath){ _dirCloudStorage = localPath; }
+	public void setLocalStorage(String localPath){ _dirLocalStorage = localPath; }
+
+	private final String INI_SETTING_FILE = "MangaResouceIni.json";
+	private final String INI_SETTING_FILE_PATH;
+	private final String INI_SETTING_DIR;
+	private String _dirUser = "";
+	private String _dirCloudStorage = "";
+	private String _dirLocalStorage = "";
+
+	public SettingAd(String dirSystem) { //, String filename) {
+		// INI_SETTING_FILE = filename;
+		INI_SETTING_DIR = dirSystem;
+		INI_SETTING_FILE_PATH = INI_SETTING_DIR + "/" + INI_SETTING_FILE;
+	}
+	public void parseJson() throws SDEBase {
+		try {
+			parseJson(ThreadWork.readJson(INI_SETTING_FILE_PATH));
+		} catch(JSONException e) {
+			throw SDEError.c.........; 
+		}
+	}
+	public void parseJson(String externalFile) throws SDEBase {
+		try {
+			parseJson(ThreadWork.readJson(externalFile));
+		} catch(JSONException e) {
+			throw SDEError.c.........; 
+		}		
+		ThreadWork.write(INI_SETTING_FILE_PATH, json.toString());
+	}
+}

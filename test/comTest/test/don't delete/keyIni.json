@@ -1,0 +1,29 @@
+{
+  "NextPage": "VK_X",
+  "PrevPage": "VK_C",
+  "NextChapter": ["VK_Q","VK_A","VK_Z"],
+  "PrevChapter": ["VK_R","VK_F","VK_V"],
+  "NextTwoPage": "VK_S",
+  "PrevTwoPage": "VK_D",
+  "NextMark": "VK_W",
+  "PrevMark": "VK_E",
+  "GoFirst": "VK_PERIOD",
+  "GoLast": "VK_COMMA",
+  
+  "TxtCurrntFolder": "VK_O",
+  "TxtDefaultFolder": "VK_P",
+  
+  "SetIni": "VK_H",
+  "SetPathUser": "VK_J",
+  "SetCloudStorage": "VK_K",
+  "SetLocalStorage": "VK_L",
+  
+  "Show": "VK_0",
+  "Back": "VK_BACK_SPACE",
+  "Enter": "VK_ENTER",
+  "Switch": "VK_TAB",
+  "NextHPage1": "VK_B",
+  "PrevHPage1": "VK_N",
+  "NextHPage2": "VK_G",
+  "PrevHPage2": "VK_H"
+}

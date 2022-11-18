@@ -1,0 +1,24 @@
+TestTWKCh2D
+	writeKCh2D
+	readKCh2D
+	getKCh2D
+TestTWOp01
+	isExistFolder
+	filterEle
+TestTWOp02
+	filterExistIdFolder
+TestTWSave
+	saveHistory*2
+	saveMarkHistory
+	saveCover*2
+TestTWDefault
+	getDefaultKCh*2
+	getCasheKPgS*3
+	getKPgSF
+TestTWIdFolder
+	iniIdFolder
+	updateIdFolder
+	updateOrCreateIdFolder
+TestTWImage
+	getImage*3
+	prepareImage
