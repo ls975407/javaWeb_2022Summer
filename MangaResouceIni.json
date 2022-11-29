@@ -1,1 +1,747 @@
-{"NumThread":2,"PIPageCPrev":"first","GetFontTypes":["Consolas","Consolas","Consolas","Consolas","Consolas","Consolas","Consolas","Consolas","Consolas"],"PressAmount":10,"ExtSettingPath":"tokenS","PgIndexChKPgSF":10,"PathTokenS":"tokenS/tokens.txt","TxtHistory":"history","ErrorFontType":"Consolas","LegalImageExtension":["jpg","png"],"RangeNextPg":4,"Mark2Order":[["a",3],["c",5],["e",2],["f",4],["i",7],["j",6],["k",8],["g",4]],"CloudToken":"token-here","RangePrevCh":2,"LegalJsonExtension":[".json"],"KIdTHolderCh":3,"PathSynLId":"syncIdLocal","PathLRecord":"recordLocal","PathSynCCh":"syncChCloud","DirUser":"C:/Users/will/Pictures/test/user","PgIndexChInteger":50,"DirCloudStorage":"C:/Users/will/Pictures/test/cloud","NodeCPictureCopy":10988072565,"DefaultPgFrame":"PgSingle","PIPagePNext":"end","ErrorLabelIndex":8,"DirLocalStorage":"C:/Users/will/Pictures/test/local","PathCIdJson":"linkCloud","GetFontSizes":[25,25,25,25,25,25,25,25,25],"RandomIdNum":5,"MinSlideAmount":50,"LabelMarge":10,"IdIndexPKPgS":50,"PathCRecord":"recordCloud","KIdTHolderPg":3,"FindFrameObj":[{"CmdMs":[{"CmdAbcE":"NextPage","Range":[0,0,0.33,0.4]},{"CmdAbcE":"PrevPage","Range":[0.66,0,0.33,0.4]},{"CmdAbcE":"NextChapter","Range":[0,0.4,0.25,0.4]},{"Type":"To","Args":"PgDual","Range":[0.25,0.4,0.25,0.4]},{"Type":"MinusTo","Args":"PgDual","CmdAbcE":"Switch","Range":[0.5,0.4,0.25,0.4]},{"CmdAbcE":"PrevChapter","Range":[0.75,0.4,0.25,0.4]},{"Type":"To","Args":"ChSingle","CmdAbcE":"Back","Range":[0,0.8,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0.75,0.8,0.25,0.2]}],"FrameType":"single","SlideCmds":{"Type":["To","MinusTo","MinusTo","To"],"Args":["PgUpDown","PgUpDown","PgLeftRight","PgLeftRight"],"CmdAbcE":["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],"Range":[0.33,0,0.33,0.4]},"LabelMs":[[["__ch__","__chName__"],1,0],[["__page__","-","__len__"],6,0]],"Name":"PgSingle","HolderType":"Pg"},{"CmdMs":[{"CmdAbcE":"NextPage","Range":[0,0,0.33,0.4]},{"CmdAbcE":"PrevPage","Range":[0.66,0,0.33,0.4]},{"CmdAbcE":"NextChapter","Range":[0,0.4,0.33,0.4]},{"Type":"To","Args":"ChDual","CmdAbcE":"Switch","Range":[0.33,0.4,0.33,0.4]},{"CmdAbcE":"PrevChapter","Range":[0.66,0.4,0.33,0.4]},{"Type":"To","Args":"IdSingle","CmdAbcE":"Back","Range":[0,0.8,0.25,0.2]},{"Type":"To","Args":"PgSingle","CmdAbcE":"Enter","Range":[0.25,0.8,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0.75,0.8,0.25,0.2]}],"FrameType":"single","SlideCmds":{"CmdAbcE":["NextMark","PrevMark","PrevPage","NextPage"],"Range":[0.33,0,0.33,0.4]},"LabelMs":[[["__ch__","__chName__"],1,0],[["__page__","-","__len__"],6,0]],"Name":"ChSingle","HolderType":"Ch"},{"CmdMs":[{"CmdAbcE":"NextPage","Range":[0,0,0.33,0.4]},{"CmdAbcE":"PrevPage","Range":[0.66,0,0.33,0.4]},{"CmdAbcE":"NextChapter","Range":[0,0.4,0.33,0.4]},{"Type":"To","Args":"IdDual","CmdAbcE":"Switch","Range":[0.33,0.4,0.33,0.4]},{"CmdAbcE":"PrevChapter","Range":[0.66,0.4,0.33,0.4]},{"Type":["Nothing","Close"],"Args":["",""],"CmdAbcE":"Back","Range":[0,0.8,0.25,0.2]},{"Type":"To","Args":"ChSingle","CmdAbcE":"Enter","Range":[0.25,0.8,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0.75,0.8,0.25,0.2]}],"FrameType":"single","SlideCmds":{"CmdAbcE":["NextPage","PrevPage","PrevPage","NextPage"],"Range":[0.33,0,0.33,0.4]},"LabelMs":[[["__idName__"],1,0],[["__page__","-","__len__"],6,0]],"Name":"IdSingle","HolderType":"Id"},{"CmdMs":[{"CmdAbcE":"SetIni","Range":[0,0,0.125,0.2]},{"CmdAbcE":"SetPathUser","Range":[0.125,0,0.125,0.2]},{"CmdAbcE":"SetCloudStorage","Range":[0.25,0,0.125,0.2]},{"CmdAbcE":"SetLocalStorage","Range":[0.375,0,0.125,0.2]},{"CmdAbcE":"TxtCurrntFolder","Range":[0.5,0,0.25,0.2]},{"CmdAbcE":"Exit","Range":[0.75,0,0.25,0.2]},{"CmdAbcE":"CreateId","Range":[0,0.2,0.25,0.2]},{"CmdAbcE":"CreateIdS","Range":[0.25,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudRandom","Range":[0.5,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalRandom","Range":[0.75,0.2,0.25,0.2]},{"CmdAbcE":"UpdateId","Range":[0,0.4,0.25,0.2]},{"CmdAbcE":"UpdateIdS","Range":[0.25,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud0","Range":[0.5,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud1","Range":[0.75,0.4,0.25,0.2]},{"CmdAbcE":"GoLast","Range":[0,0.6,0.25,0.2]},{"CmdAbcE":"GoFirst","Range":[0.25,0.6,0.25,0.2]},{"CmdAbcE":"TxtCloudHistory","Range":[0.5,0.6,0.25,0.2]},{"CmdAbcE":"SaveHistory","Range":[0.75,0.6,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0,0.8,0.25,0.2]},{"CmdAbcE":"None","Range":[0.75,0.8,0.75,0.2]}],"FrameType":"single","FolderImage":"Setting02Single","LabelMs":[[["#2"],1,0]],"Name":"Setting02Single","HolderType":"Ini"},{"CmdMs":[{"CmdAbcE":"TxtCloudFolder","Range":[0,0,0.25,0.2]},{"CmdAbcE":"TxtDefaultFolder","Range":[0.25,0,0.25,0.2]},{"CmdAbcE":"TxtCurrntFolder","Range":[0.5,0,0.25,0.2]},{"CmdAbcE":"Exit","Range":[0.75,0,0.25,0.2]},{"CmdAbcE":"TxtCloudSearchCh","Range":[0,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalSearchCh","Range":[0.25,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudRandom","Range":[0.5,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalRandom","Range":[0.75,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudSearchId","Range":[0,0.4,0.25,0.2]},{"CmdAbcE":"TxtLocalSearchId","Range":[0.25,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud0","Range":[0.5,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud1","Range":[0.75,0.4,0.25,0.2]},{"CmdAbcE":"GoLast","Range":[0,0.6,0.25,0.2]},{"CmdAbcE":"GoFirst","Range":[0.25,0.6,0.25,0.2]},{"CmdAbcE":"TxtCloudHistory","Range":[0.5,0.6,0.25,0.2]},{"CmdAbcE":"SaveHistory","Range":[0.75,0.6,0.25,0.2]},{"Type":"Show","Args":"Setting02Single","CmdAbcE":"Show","Range":[0,0.8,0.25,0.2]},{"CmdAbcE":"None","Range":[0.75,0.8,0.75,0.2]}],"FrameType":"single","FolderImage":"Setting01Single","LabelMs":[[["#1"],1,0]],"Name":"Setting01Single","HolderType":"Ini"},{"CmdMs":[{"CmdAbcE":"NextPage","Range":[0,0,0.33,0.4]},{"CmdAbcE":"PrevPage","Range":[0.66,0,0.33,0.4]},{"CmdAbcE":"NextChapter","Range":[0,0.4,0.33,0.4]},{"Type":"To","Args":"PgDual","CmdAbcE":"Switch","Range":[0.33,0.4,0.33,0.4]},{"CmdAbcE":"PrevChapter","Range":[0.66,0.4,0.33,0.4]},{"Type":"To","Args":"ChSingle","CmdAbcE":"Back","Range":[0,0.8,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0.75,0.8,0.25,0.2]}],"FrameType":"leftright","SlideCmds":{"Type":["AddTo","To","To","AddTo"],"Args":["PgSingle","PgSingle","PgSingle","PgSingle"],"CmdAbcE":["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],"Range":[0.33,0,0.33,0.4]},"LabelMs":[[["__ch__","__chName__"],1,0],[["__page__","-","__len__"],6,0]],"Name":"PgLeftRight","HolderType":"Pg"},{"CmdMs":[{"CmdAbcE":"NextPage","Range":[0,0,0.33,0.4]},{"CmdAbcE":"PrevPage","Range":[0.66,0,0.33,0.4]},{"CmdAbcE":"NextChapter","Range":[0,0.4,0.33,0.4]},{"Type":"To","Args":"PgDual","CmdAbcE":"Switch","Range":[0.33,0.4,0.33,0.4]},{"CmdAbcE":"PrevChapter","Range":[0.66,0.4,0.33,0.4]},{"Type":"To","Args":"ChSingle","CmdAbcE":"Back","Range":[0,0.8,0.25,0.2]},{"Type":"Show","Args":"Setting01Single","CmdAbcE":"Show","Range":[0.75,0.8,0.25,0.2]}],"FrameType":"updown","SlideCmds":{"Type":["AddTo","To","To","AddTo"],"Args":["PgSingle","PgSingle","PgSingle","PgSingle"],"CmdAbcE":["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],"Range":[0.33,0,0.33,0.4]},"LabelMs":[[["__ch__","__chName__"],1,0],[["__page__","-","__len__"],6,0]],"Name":"PgUpDown","HolderType":"Pg"},{"CmdMs":[{"CmdAbcE":"PrevPage","Range":[0,0,0.5,0.3]},{"CmdAbcE":"NextPage","Range":[0,0.6,0.5,0.3]},{"CmdAbcE":"PrevChapter","Range":[0.5,0,0.5,0.3]},{"Type":"To","Args":"IdSingle","CmdAbcE":"Switch","Range":[0.5,0.3,0.5,0.3]},{"CmdAbcE":"NextChapter","Range":[0.5,0.6,0.5,0.3]},{"Type":["Nothing","Close"],"Args":["",""],"CmdAbcE":"Back","Range":[0,0.9,0.25,0.1]},{"Type":"To","Args":"ChDual","CmdAbcE":"Enter","Range":[0.25,0.9,0.25,0.1]},{"Type":"Show","Args":"Setting01Dual","CmdAbcE":"Show","Range":[0.75,0.9,0.25,0.1]}],"FrameType":"dual","SlideCmds":{"CmdAbcE":["NextPage","PrevPage","PrevPage","NextPage"],"Range":[0,0.3,0.5,0.3]},"LabelMs":[[["__idName__"],0,0],[["__page__","-","__len__"],5,0]],"Name":"IdDual","HolderType":"Id"},{"CmdMs":[{"CmdAbcE":"PrevPage","Range":[0,0,0.5,0.3]},{"CmdAbcE":"NextPage","Range":[0,0.6,0.5,0.3]},{"CmdAbcE":"PrevChapter","Range":[0.5,0,0.5,0.3]},{"Type":"To","Args":"ChSingle","CmdAbcE":"Switch","Range":[0.5,0.3,0.5,0.3]},{"CmdAbcE":"NextChapter","Range":[0.5,0.6,0.5,0.3]},{"Type":"To","Args":"IdDual","CmdAbcE":"Back","Range":[0,0.9,0.25,0.1]},{"Type":"To","Args":"PgDual","CmdAbcE":"Enter","Range":[0.25,0.9,0.25,0.1]},{"Type":"Show","Args":"Setting01Dual","CmdAbcE":"Show","Range":[0.75,0.9,0.25,0.1]}],"FrameType":"dual","SlideCmds":{"CmdAbcE":["NextPage","PrevPage","PrevPage","NextPage"],"Range":[0,0.3,0.5,0.3]},"LabelMs":[[["__ch__","__chName__"],0,0],[["__page__","-","__len__"],5,0]],"Name":"ChDual","HolderType":"Ch"},{"CmdMs":[{"CmdAbcE":"PrevTwoPage","Range":[0,0,0.5,0.3]},{"CmdAbcE":"NextTwoPage","Range":[0,0.6,0.5,0.3]},{"CmdAbcE":"PrevChapter","Range":[0.5,0,0.5,0.225]},{"Type":"To","Args":"PgSingle","Range":[0.5,0.225,0.5,0.225]},{"Type":"AddTo","Args":"PgSingle","CmdAbcE":"Switch","Range":[0.5,0.45,0.5,0.225]},{"CmdAbcE":"NextChapter","Range":[0.5,0.675,0.5,0.225]},{"Type":"Show","Args":"Setting01Dual","CmdAbcE":"Show","Range":[0.75,0.9,0.25,0.1]},{"Type":"To","Args":"ChDual","CmdAbcE":"Back","Range":[0,0.9,0.25,0.1]}],"FrameType":"dual","SlideCmds":{"CmdAbcE":["NextPage","PrevPage","PrevPage","NextPage"],"Range":[0,0.26,0.5,0.26]},"LabelMs":[[["__ch__","__chName__"],0,0],[["__page__","-","__len__"],5,0]],"Name":"PgDual","HolderType":"Pg"},{"CmdMs":[{"CmdAbcE":"SetIni","Range":[0,0,0.125,0.2]},{"CmdAbcE":"SetPathUser","Range":[0.125,0,0.125,0.2]},{"CmdAbcE":"SetCloudStorage","Range":[0.25,0,0.125,0.2]},{"CmdAbcE":"SetLocalStorage","Range":[0.375,0,0.125,0.2]},{"CmdAbcE":"TxtCurrntFolder","Range":[0.5,0,0.25,0.2]},{"CmdAbcE":"Exit","Range":[0.75,0,0.25,0.2]},{"CmdAbcE":"CreateId","Range":[0,0.2,0.25,0.2]},{"CmdAbcE":"CreateIdS","Range":[0.25,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudRandom","Range":[0.5,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalRandom","Range":[0.75,0.2,0.25,0.2]},{"CmdAbcE":"UpdateId","Range":[0,0.4,0.25,0.2]},{"CmdAbcE":"UpdateIdS","Range":[0.25,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud0","Range":[0.5,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud1","Range":[0.75,0.4,0.25,0.2]},{"CmdAbcE":"GoLast","Range":[0,0.6,0.25,0.2]},{"CmdAbcE":"GoFirst","Range":[0.25,0.6,0.25,0.2]},{"CmdAbcE":"TxtCloudHistory","Range":[0.5,0.6,0.25,0.2]},{"CmdAbcE":"SaveHistory","Range":[0.75,0.6,0.25,0.2]},{"Type":"Show","Args":"Setting01Dual","CmdAbcE":"Show","Range":[0,0.8,0.25,0.2]},{"CmdAbcE":"None","Range":[0.75,0.8,0.75,0.2]}],"FrameType":"single","FolderImage":"Setting02Dual","LabelMs":[[["#2"],4,0]],"Name":"Setting02Dual","HolderType":"Ini"},{"CmdMs":[{"CmdAbcE":"TxtCloudFolder","Range":[0,0,0.25,0.2]},{"CmdAbcE":"TxtDefaultFolder","Range":[0.25,0,0.25,0.2]},{"CmdAbcE":"TxtCurrntFolder","Range":[0.5,0,0.25,0.2]},{"CmdAbcE":"Exit","Range":[0.75,0,0.25,0.2]},{"CmdAbcE":"TxtCloudSearchCh","Range":[0,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalSearchCh","Range":[0.25,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudRandom","Range":[0.5,0.2,0.25,0.2]},{"CmdAbcE":"TxtLocalRandom","Range":[0.75,0.2,0.25,0.2]},{"CmdAbcE":"TxtCloudSearchId","Range":[0,0.4,0.25,0.2]},{"CmdAbcE":"TxtLocalSearchId","Range":[0.25,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud0","Range":[0.5,0.4,0.25,0.2]},{"CmdAbcE":"TxtCloud1","Range":[0.75,0.4,0.25,0.2]},{"CmdAbcE":"GoLast","Range":[0,0.6,0.25,0.2]},{"CmdAbcE":"GoFirst","Range":[0.25,0.6,0.25,0.2]},{"CmdAbcE":"TxtCloudHistory","Range":[0.5,0.6,0.25,0.2]},{"CmdAbcE":"SaveHistory","Range":[0.75,0.6,0.25,0.2]},{"Type":"Show","Args":"Setting02Dual","CmdAbcE":"Show","Range":[0,0.8,0.25,0.2]},{"CmdAbcE":"None","Range":[0.75,0.8,0.75,0.2]}],"FrameType":"single","FolderImage":"Setting01Dual","LabelMs":[[["#1"],4,0]],"Name":"Setting01Dual","HolderType":"Ini"}],"FileManagerList":[],"PIPageCNext":"end","ErrorFontSize":10,"ScreenX":1404,"ScreenY":1872,"GeoScaleValue":1,"ChIndexPKPgS":50,"PathLFImage":"frameImage","PathSynJson":"syncJson","PgIndexPKPgS":50,"PIPagePPrev":"first","PathSynLCh":"syncChLocal","RangePrevPg":4,"CmdTimeMax":500,"DiffMaxDay":7,"PathSynCId":"syncIdCloud","DefaultFrame":"Setting01Single","NodeCPicture":13025603433,"DefaultIdFrame":"IdSingle","DefaultChFrame":"ChSingle","MarkToName":[["a","單行本"],["c","周刊"],["e","完全版"],["f","彩色中文版"],["i","彩色日文版"],["j","日文版"],["k","日文版其他"],["g","中文電子書"]],"FontScaleValue":1,"NodeCJson":12826716669,"PathLIdJson":"linkLocal","DFKeyName":"errorFrameName","CmdTimeMin":100,"RangeNextCh":2}
+{
+	"DirUser": "local-path-for-user",
+	"DirCloudStorage": "local-path-for-cloud-resource",
+	"DirLocalStorage": "local-path-for-local-resource",
+	"PathLRecord": "recordLocal",
+	"PathCRecord": "recordCloud",
+	"PathLIdJson": "linkLocal",
+	"PathCIdJson": "linkCloud",
+	"Mark2Order": [
+		["a", 3], 
+		["c", 5], 
+		["e", 2],
+		["f", 4],
+		["i", 7],
+		["j", 6],
+		["k", 8],
+		["g", 4]
+	],
+	"MarkToName": [
+		["a", "單行本"], 
+		["c", "周刊"], 
+		["e", "完全版"],
+		["f", "彩色中文版"],
+		["i", "彩色日文版"],
+		["j", "日文版"],
+		["k", "日文版其他"],
+		["g", "中文電子書"]
+	],
+	"DiffMaxDay": 7,
+	"NodeCPicture": 13025603433,
+	"NodeCPictureCopy": 10988072565,
+	"PathTokenS": "tokenS/tokens.txt",
+	"CloudToken": "token-here",
+	"LegalImageExtension": ["jpg", "png"],
+	"IdIndexPKPgS": 50,
+	"KIdTHolderCh": 3,
+	"ChIndexPKPgS": 50,
+	"KIdTHolderPg": 3,
+	"PgIndexPKPgS": 50,
+	"PgIndexChKPgSF": 10,
+	"PgIndexChInteger": 50,
+	"PressAmount": 10,
+	"DFKeyName": "errorFrameName",
+	"MinSlideAmount": 50,
+	"PathLFImage": "frameImage",
+	"GetFontTypes": ["Consolas", "Consolas", "Consolas", "Consolas", "Consolas", "Consolas", "Consolas", "Consolas", "Consolas"],
+	"GetFontSizes": [25, 25, 25, 25, 25, 25, 25, 25, 25],
+	"ErrorFontType": "Consolas",
+	"ErrorFontSize": 10,
+	"ErrorLabelIndex": 8,
+	"FontScaleValue": 1.0,
+	"GeoScaleValue": 1.0,
+	"LabelMarge": 10,
+	"ScreenX": 1404,
+	"ScreenY": 1872,
+	"RangeNextPg": 4,
+	"RangePrevPg": 4,
+	"RangeNextCh": 2,
+	"RangePrevCh": 2,
+	"NumThread": 2,
+	"CmdTimeMax": 500,
+	"CmdTimeMin": 100,
+	"RandomIdNum": 5,
+	"TxtHistory": "history",
+	"NodeCJson": 12826716669,
+	"PathSynCId": "syncIdCloud",
+	"PathSynLId": "syncIdLocal",
+	"PathSynCCh": "syncChCloud",
+	"PathSynLCh": "syncChLocal",
+	"PathSynJson": "syncJson",
+	"LegalJsonExtension": [".json"],
+	"FileManagerList": [],
+	"DefaultFrame": "Setting01Single",
+	"DefaultIdFrame": "IdSingle",
+	"DefaultChFrame": "ChSingle",
+	"DefaultPgFrame": "PgSingle",
+	"PIPagePNext": "end",
+	"PIPagePPrev": "first",
+	"PIPageCNext": "end",
+	"PIPageCPrev": "first",
+	"ExtSettingPath": "tokenS",
+	"FindFrameObj" :
+	[
+		{
+			"Name": "PgSingle",
+			"FrameType": "single",
+			"HolderType": "Pg",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 1, 0],
+				[["__page__", "-","__len__"], 6, 0]
+			], 
+			"CmdMs": [
+				{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0, 0.0, 0.33, 0.4]
+				},{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.66, 0.0, 0.33, 0.4]
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.0, 0.4, 0.25, 0.4]
+				},{
+					"Type": "To",
+					"Range": [0.25, 0.4, 0.25, 0.4],
+					"Args": "PgDual"
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "MinusTo",
+					"Range": [0.5, 0.4, 0.25, 0.4],
+					"Args": "PgDual"
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.75, 0.4, 0.25, 0.4]
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0, 0.8, 0.25, 0.2],
+					"Args": "ChSingle"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75, 0.8, 0.25, 0.2],
+					"Args": "Setting01Single"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],
+				"Type": ["To","MinusTo","MinusTo","To"],
+				"Range": [0.33, 0.0, 0.33, 0.4],
+				"Args": ["PgUpDown","PgUpDown","PgLeftRight","PgLeftRight"]
+			}
+		}, 
+		{
+			"Name": "ChSingle",
+			"FrameType": "single",
+			"HolderType": "Ch",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 1, 0],
+				[["__page__", "-","__len__"], 6, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0, 0.0, 0.33, 0.4]
+				},{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.66, 0.0, 0.33, 0.4]
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.0, 0.4, 0.33, 0.4]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.33, 0.4, 0.33, 0.4],
+					"Args": "ChDual"
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.66, 0.4, 0.33, 0.4]
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0, 0.8, 0.25, 0.2],
+					"Args": "IdSingle"
+				},{
+					"CmdAbcE": "Enter",
+					"Type": "To",
+					"Range": [0.25, 0.8, 0.25, 0.2],
+					"Args": "PgSingle"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.8,0.25,0.2],
+					"Args": "Setting01Single"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextMark","PrevMark","PrevPage","NextPage"],
+				"Range": [0.33, 0.0, 0.33, 0.4]
+			}
+		},
+		{
+			"Name": "IdSingle",
+			"FrameType": "single",
+			"HolderType": "Id",
+			"LabelMs": [
+				[["__idName__"], 1, 0],
+				[["__page__", "-", "__len__"], 6, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.66,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.0,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.33, 0.4, 0.33, 0.4],
+					"Args": "IdDual"
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.66,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Back",
+					"Type": ["Nothing","Close"],
+					"Range": [0.0,0.8,0.25,0.2],
+					"Args": ["",""]
+				},{
+					"CmdAbcE": "Enter",
+					"Type": "To",
+					"Range": [0.25,0.8,0.25,0.2],
+					"Args": "ChSingle"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.8,0.25,0.2],
+					"Args": "Setting01Single"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
+				"Range": [0.33,0.0,0.33,0.4]
+			}
+		},
+		{
+			"Name": "Setting02Single",
+			"FrameType": "single",
+			"HolderType": "Ini",
+			"FolderImage": "Setting02Single",
+			"LabelMs": [
+				[["#2"], 1, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "SetIni",
+					"Range": [0.0,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetPathUser",
+					"Range": [0.125,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetCloudStorage",
+					"Range": [0.25,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetLocalStorage",
+					"Range": [0.375,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "TxtCurrntFolder",
+					"Range": [0.5,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "Exit",
+					"Range": [0.75,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "CreateId",
+					"Range": [0.0,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "CreateIdS",
+					"Range": [0.25,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudRandom",
+					"Range": [0.5,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalRandom",
+					"Range": [0.75,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "UpdateId",
+					"Range": [0.0,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "UpdateIdS",
+					"Range": [0.25,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud0",
+					"Range": [0.5,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud1",
+					"Range": [0.75,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "GoLast",
+					"Range": [0.0,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "GoFirst",
+					"Range": [0.25,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudHistory",
+					"Range": [0.5,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "SaveHistory",
+					"Range": [0.75,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.0, 0.8, 0.25, 0.2],
+					"Args": "Setting01Single"
+				},{
+					"CmdAbcE": "None",
+					"Range": [0.75,0.8,0.75,0.2]
+				}
+			]
+		},
+		{
+			"Name": "Setting01Single",
+			"FrameType": "single",
+			"HolderType": "Ini",
+			"LabelMs": [
+				[["#1"], 1, 0]
+			],
+			"FolderImage": "Setting01Single",
+			"CmdMs": [
+				{
+					"CmdAbcE": "TxtCloudFolder",
+					"Range": [0.0,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtDefaultFolder",
+					"Range": [0.25,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCurrntFolder",
+					"Range": [0.5,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "Exit",
+					"Range": [0.75,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudSearchCh",
+					"Range": [0.0,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalSearchCh",
+					"Range": [0.25,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudRandom",
+					"Range": [0.5,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalRandom",
+					"Range": [0.75,0.2,0.25,0.2]
+				},{
+					"CmdAbcE":"TxtCloudSearchId",
+					"Range": [0.0,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalSearchId",
+					"Range": [0.25,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud0",
+					"Range": [0.5,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud1",
+					"Range": [0.75,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "GoLast",
+					"Range": [0.0,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "GoFirst",
+					"Range": [0.25,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudHistory",
+					"Range": [0.5,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "SaveHistory",
+					"Range": [0.75,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.0, 0.8, 0.25, 0.2],
+					"Args": "Setting02Single"
+				},{
+					"CmdAbcE": "None",
+					"Range": [0.75,0.8,0.75,0.2]
+				}
+			]
+		},
+		{
+			"Name": "PgLeftRight",
+			"FrameType": "leftright",
+			"HolderType": "Pg",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 1, 0],
+				[["__page__", "-","__len__"], 6, 0]
+			], 
+			"CmdMs": [
+				{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.66,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.0,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.33, 0.4, 0.33,0.4],
+					"Args": "PgDual"
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.66,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0, 0.8, 0.25, 0.2],
+					"Args": "ChSingle"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.8,0.25,0.2],
+					"Args": "Setting01Single"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],
+				"Type": ["AddTo","To","To","AddTo"],
+				"Range": [0.33,0.0,0.33,0.4],
+				"Args": ["PgSingle","PgSingle","PgSingle","PgSingle"]
+			}
+		}, 
+		{
+			"Name": "PgUpDown",
+			"FrameType": "updown",
+			"HolderType": "Pg",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 1, 0],
+				[["__page__", "-","__len__"], 6, 0]
+			], 
+			"CmdMs": [
+				{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.66,0.0,0.33,0.4]
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.0,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.33, 0.4, 0.33,0.4],
+					"Args": "PgDual"
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.66,0.4,0.33,0.4]
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0, 0.8, 0.25, 0.2],
+					"Args": "ChSingle"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.8,0.25,0.2],
+					"Args": "Setting01Single"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextUpPage","PrevUpPage","PrevLeftPage","NextLeftPage"],
+				"Type": ["AddTo","To","To","AddTo"],
+				"Range": [0.33,0.0,0.33,0.4],
+				"Args": ["PgSingle","PgSingle","PgSingle","PgSingle"]
+			}
+		}, 
+		{
+			"Name": "IdDual",
+			"FrameType": "dual",
+			"HolderType": "Id",
+			"LabelMs": [
+				[["__idName__"], 0, 0],
+				[["__page__", "-", "__len__"], 5, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.0,0.0,0.5,0.3]
+				},{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0,0.6,0.5,0.3]
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.5,0.0,0.5,0.3]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.5,0.3,0.5,0.3],
+					"Args": "IdSingle"
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.5,0.6,0.5,0.3]
+				},{
+					"CmdAbcE": "Back",
+					"Type": ["Nothing", "Close"],
+					"Range": [0.0,0.9,0.25,0.1],
+					"Args": ["",""]
+				},{
+					"CmdAbcE": "Enter",
+					"Type": "To",
+					"Range": [0.25,0.9,0.25,0.1],
+					"Args": "ChDual"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.9,0.25,0.1],
+					"Args": "Setting01Dual"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
+				"Range": [0.0,0.3,0.5,0.3]
+			}
+		},	
+		{
+			"Name": "ChDual",
+			"FrameType": "dual",
+			"HolderType": "Ch",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 0, 0],
+				[["__page__", "-","__len__"], 5, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "PrevPage",
+					"Range": [0.0,0.0,0.5,0.3]
+				},{
+					"CmdAbcE": "NextPage",
+					"Range": [0.0,0.6,0.5,0.3]
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.5,0.0,0.5,0.3]
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "To",
+					"Range": [0.5,0.3,0.5,0.3],
+					"Args": "ChSingle"
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.5,0.6,0.5,0.3]
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0,0.9,0.25,0.1],
+					"Args": "IdDual"
+				},{
+					"CmdAbcE": "Enter",
+					"Type": "To",
+					"Range": [0.25,0.9,0.25,0.1],
+					"Args": "PgDual"
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.9,0.25,0.1],
+					"Args": "Setting01Dual"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
+				"Range": [0.0,0.3,0.5,0.3]
+			}
+		},
+		{
+			"Name": "PgDual",
+			"FrameType": "dual",
+			"HolderType": "Pg",
+			"LabelMs": [
+				[["__ch__", "__chName__"], 0, 0],
+				[["__page__", "-","__len__"], 5, 0]
+			],  
+			"CmdMs": [
+				{
+					"CmdAbcE": "PrevTwoPage",
+					"Range": [0.0,0.0,0.5,0.3]
+				},{
+					"CmdAbcE": "NextTwoPage",
+					"Range": [0.0,0.6,0.5,0.3]
+				},{
+					"CmdAbcE": "PrevChapter",
+					"Range": [0.5,0.0,0.5,0.225]
+				},{
+					"Type": "To",
+					"Range": [0.5,0.225,0.5,0.225],
+					"Args": "PgSingle"
+				},{
+					"CmdAbcE": "Switch",
+					"Type": "AddTo",
+					"Range": [0.5,0.45,0.5,0.225],
+					"Args": "PgSingle"
+				},{
+					"CmdAbcE": "NextChapter",
+					"Range": [0.5,0.675,0.5,0.225]
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.75,0.9,0.25,0.1],
+					"Args": "Setting01Dual"
+				},{
+					"CmdAbcE": "Back",
+					"Type": "To",
+					"Range": [0.0,0.9,0.25,0.1],
+					"Args": "ChDual"
+				}
+			],
+			"SlideCmds": {
+				"CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
+				"Range": [0.0,0.26,0.5,0.26]
+			}
+		},
+		{
+			"Name": "Setting02Dual",
+			"FrameType": "single",
+			"HolderType": "Ini",
+			"FolderImage": "Setting02Dual",
+			"LabelMs": [
+				[["#2"], 4, 0]
+			],
+			"CmdMs": [
+				{
+					"CmdAbcE": "SetIni",
+					"Range": [0.0,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetPathUser",
+					"Range": [0.125,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetCloudStorage",
+					"Range": [0.25,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "SetLocalStorage",
+					"Range": [0.375,0.0,0.125,0.2]
+				},{
+					"CmdAbcE": "TxtCurrntFolder",
+					"Range": [0.5,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "Exit",
+					"Range": [0.75,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "CreateId",
+					"Range": [0.0,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "CreateIdS",
+					"Range": [0.25,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudRandom",
+					"Range": [0.5,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalRandom",
+					"Range": [0.75,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "UpdateId",
+					"Range": [0.0,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "UpdateIdS",
+					"Range": [0.25,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud0",
+					"Range": [0.5,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud1",
+					"Range": [0.75,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "GoLast",
+					"Range": [0.0,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "GoFirst",
+					"Range": [0.25,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudHistory",
+					"Range": [0.5,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "SaveHistory",
+					"Range": [0.75,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.0, 0.8, 0.25, 0.2],
+					"Args": "Setting01Dual"
+				},{
+					"CmdAbcE": "None",
+					"Range": [0.75,0.8,0.75,0.2]
+				}
+			]
+		},
+		{
+			"Name": "Setting01Dual",
+			"FrameType": "single",
+			"HolderType": "Ini",
+			"LabelMs": [
+				[["#1"], 4, 0]
+			],
+			"FolderImage": "Setting01Dual",
+			"CmdMs": [
+				{
+					"CmdAbcE": "TxtCloudFolder",
+					"Range": [0.0,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtDefaultFolder",
+					"Range": [0.25,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCurrntFolder",
+					"Range": [0.5,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "Exit",
+					"Range": [0.75,0.0,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudSearchCh",
+					"Range": [0.0,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalSearchCh",
+					"Range": [0.25,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudRandom",
+					"Range": [0.5,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalRandom",
+					"Range": [0.75,0.2,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudSearchId",
+					"Range": [0.0,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtLocalSearchId",
+					"Range": [0.25,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud0",
+					"Range": [0.5,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloud1",
+					"Range": [0.75,0.4,0.25,0.2]
+				},{
+					"CmdAbcE": "GoLast",
+					"Range": [0.0,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "GoFirst",
+					"Range": [0.25,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "TxtCloudHistory",
+					"Range": [0.5,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "SaveHistory",
+					"Range": [0.75,0.6,0.25,0.2]
+				},{
+					"CmdAbcE": "Show",
+					"Type": "Show",
+					"Range": [0.0, 0.8, 0.25, 0.2],
+					"Args": "Setting02Dual"
+				},{
+					"CmdAbcE": "None",
+					"Range": [0.75,0.8,0.75,0.2]
+				}
+			]
+		}
+	]
+}
