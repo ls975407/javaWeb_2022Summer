@@ -8,10 +8,37 @@
 
 測試影片: [Swing(Java)](https://www.youtube.com/watch?v=VORurSQo-2s)  |   [開放電子紙閱讀器](https://www.youtube.com/watch?v=cdyKz4VhWAA)
 
-  * [軟體特色](#軟體特色)
-  
-  * [MVC架構-以SpringMVC為例](#MVC架構-以SpringMVC為例)
+	* [軟體特色](#軟體特色)
 
+	* [MVC架構-以SpringMVC為例](#MVC架構-以SpringMVC為例)
+
+	* [簡化後的MVC架構](#簡化後的MVC架構)
+
+	* [路徑層數](#路徑層數)
+
+	* [視圖樣版](#)
+	
+		* [標籤排版](#標籤排版)
+		
+		* [圖片排版](#圖片排版)
+
+	* [指令轉換器](#指令轉換器)
+	
+		* [螢幕相關互動](#螢幕相關互動)
+		
+		* [按鍵盤的互動](#按鍵盤的互動)
+
+	* [設定檔MangaResouceIni.json](#設定檔MangaResouceIni.json)
+
+	* [自動下載](#自動下載)
+		
+		* [背景下載優先順序](#背景下載優先順序)
+
+	* [連接雲端](#連接雲端)
+
+	* [函式庫安裝說明](#函式庫安裝說明)
+
+	* [DAO層實作](#DAO層實作)
 
 ## 軟體特色
 
@@ -159,7 +186,7 @@ Close預設沒有參數，關閉軟體
 NextPage, GoLast, Back, Enter, Switch ...
 ```
 
-## 設定檔 MangaResouceIni.json
+## 設定檔MangaResouceIni.json
 
 不同的畫面( **路徑層數**和 **圖片排版** 的組合)，會有自己的指令轉換器，
 
