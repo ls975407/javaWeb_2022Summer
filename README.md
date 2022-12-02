@@ -210,6 +210,7 @@ NextPage, GoLast, Back, Enter, Switch ...
 	"//": "顯示在下邊，套用0號字型",
     [["__page__", "-", "__len__"], 6, 0]
   ],
+  "//": "點擊螢幕",
   "CmdMs": [
     {
 	  "//": "在此CmdAbcE和CmdEnum都為NextPage，故只需定義CmdAbcE，省略Type",
@@ -252,6 +253,7 @@ NextPage, GoLast, Back, Enter, Switch ...
       "Args": "Setting01Single"
     }
   ],
+  "//": "滑動螢幕",
   "SlideCmds": {
 	"//": "分別對應，向上、向下、向左、向右",
     "CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
