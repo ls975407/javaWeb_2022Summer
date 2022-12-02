@@ -10,37 +10,37 @@
 
 * [目錄](#圖片瀏覽軟體)
 
-	* [軟體特色](#軟體特色)
+    * [軟體特色](#軟體特色)
 
-	* [MVC架構-以SpringMVC為例](#MVC架構-以SpringMVC為例)
+    * [MVC架構-以SpringMVC為例](#MVC架構-以SpringMVC為例)
 
-	* [簡化後的MVC架構](#簡化後的MVC架構)
+    * [簡化後的MVC架構](#簡化後的MVC架構)
 
-	* [路徑層數](#路徑層數)
+    * [路徑層數](#路徑層數)
 
-	* [視圖樣版](#視圖樣版)
+    * [視圖樣版](#視圖樣版)
 
-		* [標籤排版](#標籤排版)
-		
-		* [圖片排版](#圖片排版)
+        * [標籤排版](#標籤排版)
+        
+        * [圖片排版](#圖片排版)
 
-	* [指令轉換器](#指令轉換器)
+    * [指令轉換器](#指令轉換器)
 
-		* [螢幕相關互動](#螢幕相關互動)
-		
-		* [按鍵盤的互動](#按鍵盤的互動)
+        * [螢幕相關互動](#螢幕相關互動)
+        
+        * [按鍵盤的互動](#按鍵盤的互動)
 
-	* [設定檔MangaResouceIni](#設定檔MangaResouceIni)
+    * [設定檔MangaResouceIni](#設定檔MangaResouceIni)
 
-	* [自動下載](#自動下載)
-		
-		* [背景下載優先順序](#背景下載優先順序)
+    * [自動下載](#自動下載)
+        
+        * [背景下載優先順序](#背景下載優先順序)
 
-	* [連接雲端](#連接雲端)
+    * [連接雲端](#連接雲端)
 
-	* [函式庫安裝說明](#函式庫安裝說明)
+    * [函式庫安裝說明](#函式庫安裝說明)
 
-	* [DAO層實作](#DAO層實作)
+    * [DAO層實作](#DAO層實作)
 
 ## 軟體特色
 
@@ -70,7 +70,7 @@ drive.google.com/drive/u/0/folders/10wfZjfhkefvN45njV6 硬碟服務中某個資�
 ```
 ![image info](view/images/001_traditional_mvc.png)
 
-* 相關連結 	[Spring MVC Architecture](https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html)
+* 相關連結     [Spring MVC Architecture](https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html)
 
 
 --- --- --- --- --- --- --- --- --- --- --- ---
@@ -112,10 +112,10 @@ drive.google.com/drive/u/0/folders/10wfZjfhkefvN45njV6 硬碟服務中某個資�
 來源檔格式如下
 ``` json
 {
-	"//": "該來源下的資料夾名稱",
-	"kids": ["image_id_???", "image_id_???"], 
-	"//": "0 表示本機端，其他表示雲端",
-	"longs": [0,15786245]
+    "//": "該來源下的資料夾名稱",
+    "kids": ["image_id_???", "image_id_???"], 
+    "//": "0 表示本機端，其他表示雲端",
+    "longs": [0,15786245]
 }
 ```
 
@@ -134,11 +134,11 @@ drive.google.com/drive/u/0/folders/10wfZjfhkefvN45njV6 硬碟服務中某個資�
 共有九種方式，分別是 四個角、四個邊和正中間，設定檔用0~8的數字表示
 > 位置對應數字
 > 
-> 		0 1 2
+>         0 1 2
 > 
-> 		3 8 4
+>         3 8 4
 > 
-> 		5 6 7
+>         5 6 7
 
 #### 圖片排版 
 
@@ -205,17 +205,17 @@ NextPage, GoLast, Back, Enter, Switch ...
   "FrameType": "single",
   "HolderType": "Id",
   "LabelMs": [
-	"//": "顯示在上邊，套用0號字型",
+    "//": "顯示在上邊，套用0號字型",
     [["__idName__"], 1, 0],
-	"//": "顯示在下邊，套用0號字型",
+    "//": "顯示在下邊，套用0號字型",
     [["__page__", "-", "__len__"], 6, 0]
   ],
   "//": "點擊螢幕",
   "CmdMs": [
     {
-	  "//": "在此CmdAbcE和CmdEnum都為NextPage，故只需定義CmdAbcE，省略Type",
+      "//": "在此CmdAbcE和CmdEnum都為NextPage，故只需定義CmdAbcE，省略Type",
       "CmdAbcE": "NextPage",
-	  "//": "Range 定義點擊範圍",
+      "//": "Range 定義點擊範圍",
       "Range": [0.0,0.0,0.33,0.4]
     },{
       "CmdAbcE": "PrevPage",
@@ -225,8 +225,8 @@ NextPage, GoLast, Back, Enter, Switch ...
       "Range": [0.0,0.4,0.33,0.4]
     },{
       "CmdAbcE": "Switch",
-	  "//": "只有一個Type，代表按了即反應",
-	  "//": "會忽略未執行的執行而直接執行此指令",
+      "//": "只有一個Type，代表按了即反應",
+      "//": "會忽略未執行的執行而直接執行此指令",
       "Type": "To",
       "Range": [0.33, 0.4, 0.33, 0.4],
       "Args": "IdDual"
@@ -235,9 +235,9 @@ NextPage, GoLast, Back, Enter, Switch ...
       "Range": [0.66,0.4,0.33,0.4]
     },{
       "CmdAbcE": "Back",
-	  "//": "有多個Type，代表需要透由按的次數決定執行哪個指令",
-	  "//": "按了一次，指令為 Nothing",
-	  "//": "按了兩次以上，指令為 Close",
+      "//": "有多個Type，代表需要透由按的次數決定執行哪個指令",
+      "//": "按了一次，指令為 Nothing",
+      "//": "按了兩次以上，指令為 Close",
       "Type": ["Nothing","Close"],
       "Range": [0.0,0.8,0.25,0.2],
       "Args": ["",""]
@@ -255,7 +255,7 @@ NextPage, GoLast, Back, Enter, Switch ...
   ],
   "//": "滑動螢幕",
   "SlideCmds": {
-	"//": "分別對應，向上、向下、向左、向右",
+    "//": "分別對應，向上、向下、向左、向右",
     "CmdAbcE": ["NextPage","PrevPage","PrevPage","NextPage"],
     "Range": [0.33,0.0,0.33,0.4]
   }
@@ -285,11 +285,11 @@ NextPage, GoLast, Back, Enter, Switch ...
 至多下載的層數，thread pool的最大值，需在MangaResouceIni.json 設定檔中設定
 ``` json
 {
-	"NumThread": 2,
-	"RangeNextPg": 4,
-	"RangePrevPg": 4,
-	"RangeNextCh": 2,
-	"RangePrevCh": 2,
+    "NumThread": 2,
+    "RangeNextPg": 4,
+    "RangePrevPg": 4,
+    "RangeNextCh": 2,
+    "RangePrevCh": 2,
 }
 ``` 
 ## 連接雲端
@@ -299,80 +299,80 @@ NextPage, GoLast, Back, Enter, Switch ...
 
 1. 登入pCloud並建一個App
 
-	到[pCloud: My applications](https://docs.pcloud.com/my_apps/) 申請App，
-	
-	Redirect URIs 填https://oauth2redirect
-	
-	Allow implicit grant需勾選Allow
+    到[pCloud: My applications](https://docs.pcloud.com/my_apps/) 申請App，
+    
+    Redirect URIs 填https://oauth2redirect
+    
+    Allow implicit grant需勾選Allow
 
-	複製App 的 client_id，之後會使用
+    複製App 的 client_id，之後會使用
 
 2. 取得token
-	在瀏覽器輸入以下的網址(替換成自己的client_id)
-	```
-	https://my.pcloud.com/oauth2/authorize?client_id=??????&response_type=token&redirect_uri=https://oauth2redirect
-	```
-	登入驗證之後網頁會回傳
-	```
-	https://oauth2redirect/#access_token=??????&token_type=bearer&userid=??????&locationid=1&hostname=api.pcloud.com
-	```
-	這裡的access_token的值可用於存取雲端的資料
-	
+    在瀏覽器輸入以下的網址(替換成自己的client_id)
+    ```
+    https://my.pcloud.com/oauth2/authorize?client_id=??????&response_type=token&redirect_uri=https://oauth2redirect
+    ```
+    登入驗證之後網頁會回傳
+    ```
+    https://oauth2redirect/#access_token=??????&token_type=bearer&userid=??????&locationid=1&hostname=api.pcloud.com
+    ```
+    這裡的access_token的值可用於存取雲端的資料
+    
 3. 測試程式碼 - 印出根目錄下的所有檔案名
-	``` java
-	ApiClient apiClient = PCloudSdk.newClientBuilder()
-		.authenticator(Authenticators.newOAuthAuthenticator(<token>))
-		// Other configuration...
-		.create();
-	try {
-		long code = 0;
-		List<RemoteEntry> entrys = apiClient.listFolder(code).execute().children();
-		for(RemoteEntry entry: entrys) {
-			System.out.println(entry.name());
-		}	
-	} catch (IOException | ApiError e) {
-	}	
-	```
+    ``` java
+    ApiClient apiClient = PCloudSdk.newClientBuilder()
+        .authenticator(Authenticators.newOAuthAuthenticator(<token>))
+        // Other configuration...
+        .create();
+    try {
+        long code = 0;
+        List<RemoteEntry> entrys = apiClient.listFolder(code).execute().children();
+        for(RemoteEntry entry: entrys) {
+            System.out.println(entry.name());
+        }    
+    } catch (IOException | ApiError e) {
+    }    
+    ```
 * 參考來源 
 
-	[pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java)
-	
-	[pcloud-sdk-swift github](https://github.com/pCloud/pcloud-sdk-swift) 
-	
-	[pCloud.authentication](https://docs.pcloud.com/methods/oauth_2.0/authorize.html) 
-	
-	[pCloud.docx](https://docs.pcloud.com/) 
+    [pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java)
+    
+    [pcloud-sdk-swift github](https://github.com/pCloud/pcloud-sdk-swift) 
+    
+    [pCloud.authentication](https://docs.pcloud.com/methods/oauth_2.0/authorize.html) 
+    
+    [pCloud.docx](https://docs.pcloud.com/) 
 
 
 ## 函式庫安裝說明
 要額外安裝json、pcloud api等外部程式碼
 
 * Maven專案(Eclipse IDE)
-	``` xml
-	<dependency>
-	  <groupId>com.pcloud.sdk</groupId>
-	  <artifactId>java-core</artifactId>
-	  <version>1.8.1</version>
-	  <type>pom</type>
-	</dependency>
-	```
+    ``` xml
+    <dependency>
+      <groupId>com.pcloud.sdk</groupId>
+      <artifactId>java-core</artifactId>
+      <version>1.8.1</version>
+      <type>pom</type>
+    </dependency>
+    ```
 * Gradle專案(Android Studio)
-	``` gradle
-	implementation 'com.pcloud.sdk:java-core:1.8.1'
-	```
+    ``` gradle
+    implementation 'com.pcloud.sdk:java-core:1.8.1'
+    ```
 * console
-	需要下載
-	
-	converter-moshi.jar  moshi.jar  okio.jar gson.jar logging-interceptor.jar  okhttp.jar  retrofit.jar
-	
-	到 [pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java) 下載所提供的jar檔 java-core.jar
+    需要下載
+    
+    converter-moshi.jar  moshi.jar  okio.jar gson.jar logging-interceptor.jar  okhttp.jar  retrofit.jar
+    
+    到 [pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java) 下載所提供的jar檔 java-core.jar
 
-	所有的jar檔在工作目錄下需提取成class檔
-	``` 
-	jar xf *.java 
-	``` 
-* 參考來源 	[pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java)
-	
+    所有的jar檔在工作目錄下需提取成class檔
+    ``` 
+    jar xf *.java 
+    ``` 
+* 參考來源     [pcloud-sdk-java github](https://github.com/pCloud/pcloud-sdk-java)
+    
 ## DAO層實作
 
 在此程式碼中，只會從雲端查詢和下載資料，
@@ -387,13 +387,13 @@ CloudM.java 實作pCloud api的DAO層
 
 ``` java
 public TokenS getTokenSFolder(Long node) throws SDEBase {
-	List<List<KeyStringT<Infor>>> lists = getTokenS(node);
-	Collections.sort(lists.get(0)); 
-	return toTokenS(lists.get(0));
+    List<List<KeyStringT<Infor>>> lists = getTokenS(node);
+    Collections.sort(lists.get(0)); 
+    return toTokenS(lists.get(0));
 }
 public TokenUS getTokenUSFile(Long node) throws SDEBase {
-	List<List<KeyStringT<Infor>>> lists = getTokenS(node);
-	Collections.sort(lists.get(1)); 
-	return toTokenUS(lists.get(1));
+    List<List<KeyStringT<Infor>>> lists = getTokenS(node);
+    Collections.sort(lists.get(1)); 
+    return toTokenUS(lists.get(1));
 }
 ``` 
