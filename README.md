@@ -280,7 +280,7 @@ NextPage, GoLast, Back, Enter, Switch ...
 
 到達某圖片所需的次數愈少，愈先被下載
 
-這裡使用 [廣度優先Breadth-first wiki](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2) 的方式優先下載完少次可到的圖片
+這裡使用 [廣度優先Breadth-first](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2) 的方式優先下載完少次可到的圖片
 
 至多下載的層數，thread pool的最大值，需在MangaResouceIni.json 設定檔中設定
 ``` json
