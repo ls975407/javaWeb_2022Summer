@@ -18,7 +18,7 @@
 
 	* [路徑層數](#路徑層數)
 
-	* [視圖樣版](#)
+	* [視圖樣版](#視圖樣版)
 
 		* [標籤排版](#標籤排版)
 		
@@ -30,7 +30,7 @@
 		
 		* [按鍵盤的互動](#按鍵盤的互動)
 
-	* [設定檔MangaResouceIni.json](#設定檔MangaResouceIni.json)
+	* [設定檔MangaResouceIni](#設定檔MangaResouceIni)
 
 	* [自動下載](#自動下載)
 		
@@ -188,7 +188,7 @@ Close預設沒有參數，關閉軟體
 NextPage, GoLast, Back, Enter, Switch ...
 ```
 
-## 設定檔MangaResouceIni.json
+## 設定檔MangaResouceIni
 
 不同的畫面( **路徑層數**和 **圖片排版** 的組合)，會有自己的指令轉換器，
 
