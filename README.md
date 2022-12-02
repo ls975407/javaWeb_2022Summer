@@ -10,7 +10,7 @@
 
   * [軟體特色](#軟體特色)
   
-  * [MVC架構(以Spring MVC為例)](#MVC架構(以SpringMVC為例))
+  * [MVC架構-以SpringMVC為例](#MVC架構-以SpringMVC為例)
 
 
 ## 軟體特色
@@ -27,7 +27,7 @@
 
 * 使用者閱讀時即 **自動部分下載** 雲端的資料，無須事前下載也不用擔心檔案過大
 
-## MVC架構(以SpringMVC為例)
+## MVC架構-以SpringMVC為例
 
 以 網址 來選擇控制器以完成對應的服務
 
