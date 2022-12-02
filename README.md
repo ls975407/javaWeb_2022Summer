@@ -8,7 +8,10 @@
 
 測試影片: [Swing(Java)](https://www.youtube.com/watch?v=VORurSQo-2s)  |   [開放電子紙閱讀器](https://www.youtube.com/watch?v=cdyKz4VhWAA)
 
-[toc]
+  * [軟體特色](#軟體特色)
+  
+  * [MVC架構(以Spring MVC為例)](#MVC架構(以Spring MVC為例))
+
 
 ## 軟體特色
 
